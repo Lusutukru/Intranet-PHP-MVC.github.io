@@ -1,0 +1,28 @@
+Créer un nouveau menu : api-json
+Le but sera d'afficher les films en format json
+
+1) créer le menu = la route
+   ajouter un li dans ./include/nav.php 
+
+2) créer le controleur 
+    ajouter ./ctrl_api_json.php
+    dans le controleur, on récupère les films avec mysqli
+    on encode les films en JSON
+
+3) créer la vue
+    dans la vue on affiche les films en JSON
+
+On fait un deuxième menu pour afficher uniquement le JSON
+1) créer le menu = la route
+   ajouter un li dans ./include/nav.php 
+   dans le href, on met un targer = "_blank"
+
+2) créer le controleur 
+    ajouter ./ctrl_api_json_format.php
+
+    dans le controleur, on récupère les films avec mysqli
+    on encode les films en JSON
+    
+    on affiche directement dans le controleur
+    on met un header JSON pour avoir un format JSON et que le formatter JSON fonctionne.
+    header('Content-Type: application/json; charset=utf-8');

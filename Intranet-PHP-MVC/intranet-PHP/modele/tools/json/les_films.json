@@ -1,0 +1,37 @@
+[
+   {
+      "titre": "Nope",
+      "annee": 2022,
+      "realisateur": "Jordan Peele"
+   },
+   {
+      "titre": "une vérité qui dérange==",
+      "annee": 2006,
+      "realisateur": "Davis Guggenheim"
+   },
+   {
+      "titre": "Don't look up",
+      "annee": 2021,
+      "realisateur": "Adam McKay"
+   },
+   {
+      "titre": "Beasts of the southern wild",
+      "annee": 2012,
+      "realisateur": "Benh Zeitlin"
+   },
+   {
+      "titre": "Melencholia",
+      "annee": 2011,
+      "realisateur": "Lars van Triers"
+   },
+   {
+      "titre": "Sauve qui peut (la vie)",
+      "annee": 1980,
+      "realisateur": "Jean-Luc Godard"
+   },
+   {
+      "titre": "L'amour à mort",
+      "annee": 1984,
+      "realisateur": "Alain Resnais"
+   }
+]

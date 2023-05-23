@@ -1,0 +1,96 @@
+body { 
+   background-color: lightyellow;
+   margin : 20px;
+}
+header{
+   border:1px solid blue;
+   text-align: center;
+}
+header p{
+   padding:0px 200px 0px 200px
+}
+
+nav ul {
+   display:flex;
+   padding-left: 0px;
+
+}
+nav ul li{
+   list-style-type: none;
+   padding: 20px;
+   border:2px solid red;
+}
+
+main{
+   border:1px solid red;
+   padding:10px 30px 25px 30px; /* ou :25px*/
+}
+main #art1 p {
+   background-color: aquamarine;
+   padding: 20px;
+}
+
+main #art1 p img {
+   float:right;
+}
+main #art1 p .Crutzen {
+   color: red;
+   font-size:x-large;
+}
+main div{
+   display:flex;
+}
+main div #art2{
+   flex:1;
+}
+main div #art3{
+   flex:1;
+}
+main div #art3 table td{
+   padding:0px 5px 0px 5px;
+}
+
+footer{
+   display: flex;
+   flex-wrap : wrap;
+}
+footer ul, footer ol{
+   margin:20px;
+   border:2px solid red;
+   flex:1
+}
+footer p{
+   width: 100%; /* ça permet que le p passe à la ligne malgré le diplay flex */
+   margin:0px;
+   font-style: italic;
+   font-size:smaller;
+}
+
+@media (max-width: 992px) {
+   body { 
+      margin : 10px;
+   }
+   header p{
+      display:none;
+   }
+   nav ul{
+      /* display:block; : solution sale */
+      flex-direction: column;
+   }
+   nav ul li{
+      padding: 2px;
+   }
+   main #art1{
+      height:300px;
+      overflow: scroll;
+   }
+   main div #art2 {
+      display:none;
+   }
+   footer{
+      display: block;
+   }
+   footer ol{
+      display:none
+   }
+}
